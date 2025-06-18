@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pollo"
+version = "0.0.1"
+description = "Una libreria de prubas para nexus"
+authors = [{ name = "David", email = "david.email@example.com" }]
+requires-python = ">=3.6"
+dependencies = []
