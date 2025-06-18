@@ -24,5 +24,5 @@ jobs:
           NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
         run: |
           pip install pollo \
-            --index-url https://$NEXUS_USERNAME:$NEXUS_PASSWORD@54.165.247.238:8081/repository/pollo/simple/ \
-            --trusted-host http://54.165.247.238:8081/
+            --index-url http://$NEXUS_USERNAME:$NEXUS_PASSWORD@ec2-54-165-247-238.compute-1.amazonaws.com:8081/repository/pollo/simple/ \
+            --trusted-host http://ec2-54-165-247-238.compute-1.amazonaws.com:8081/
